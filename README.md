@@ -1,7 +1,7 @@
 # HexToClr - Hex string txt convert to clr.
 =========
 
-#Usage
+# Usage
 
 >HexToClr ./colors.txt
 
@@ -15,3 +15,11 @@ FFFF white
 FFFFFFFF white
 
 ```
+
+# Install
+
+`chmod a+x HexToClr`
+
+# Compile
+
+`$ swift build -c release`
