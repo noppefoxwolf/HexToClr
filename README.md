@@ -23,3 +23,16 @@ FFFFFFFF white
 # Compile
 
 `$ swift build -c release`
+
+# Generate Xcode Proj
+
+`swift package generate-xcodeproj`
+
+## Pre-configuration Build Products Path
+
+`$(SRCROOT)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)`
+
+## Always Embed Swift Standard Libraries
+
+`Yes`
+
